@@ -24,9 +24,7 @@ public class SudokuTextField extends TextField {
         return y;
     }
 
-    /*
-    For some reason, when I override these two functions, the TextFields stop duplicating numeric inputs...
-     */
+
     public void replaceText(int i, int i1, String s) {
         if (!s.matches("[0-9]")) {
             super.replaceText(i, i1, s);

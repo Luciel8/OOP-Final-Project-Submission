@@ -27,9 +27,7 @@ import sudoku.constants.GameState;
 import sudoku.problemdomain.Coordinates;
 import sudoku.problemdomain.SudokuGame;
 
-/**
- * Manages the window, and displays a pop up notification when the user completes the puzzle.
- */
+
 public class BadUserInterfaceImpl implements IUserInterfaceContract.View,
         EventHandler<KeyEvent> {
     private final Stage stage;
@@ -66,7 +64,7 @@ public class BadUserInterfaceImpl implements IUserInterfaceContract.View,
 
         final int xOrigin = 50;
         final int yOrigin = 50;
-        //how much to move the x or y value after each loop
+     
         final int xAndYDelta = 64;
 
         for (int xIndex = 0; xIndex < 9; xIndex++) {
@@ -133,10 +131,7 @@ public class BadUserInterfaceImpl implements IUserInterfaceContract.View,
         this.listener = listener;
     }
 
-    /**
-     * Each time the user makes an input (which can be 0 to delete a number), we update the user
-     * interface appropriately.
-     */
+    
     @Override
     public void updateSquare(int x, int y, int input) {
         SudokuTextField tile = textFieldCoordinates.get(new Coordinates(x, y));
@@ -164,8 +159,7 @@ public class BadUserInterfaceImpl implements IUserInterfaceContract.View,
                         value
                 );
 
-                //If a given tile has a non-zero value and the state of the game is GameState.NEW, then mark
-                //the tile as read only. Otherwise, ensure that it is NOT read only.
+
                 if (game.getGameState() == GameState.NEW){
                     if (value.equals("")) {
                         tile.setStyle("-fx-opacity: 1;");

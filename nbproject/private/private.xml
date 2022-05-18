@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaApplication32/src/javaapplication32/JavaApplication32.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/userinterface/SudokuTextField.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/computationlogic/GameGenerator.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/problemdomain/SudokuGame.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/persistence/LocalStorageImpl.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/userinterface/BadUserInterfaceImpl.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/userinterface/logic/ControlLogic.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/Main.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/problemdomain/Coordinates.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/buildlogic/SudokuBuildLogic.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/SudokuApplication.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/userinterface/UserInterfaceImpl.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/problemdomain/IStorage.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/constants/Rows.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/constants/Messages.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/computationlogic/SudokuSolver.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/userinterface/IUserInterfaceContract.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/computationlogic/GameLogic.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/constants/GameState.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/Java%20Projects/JavaDesktopSudokuGame/src/sudoku/computationlogic/SudokuUtilities.java</file>
         </group>
     </open-files>
 </project-private>
